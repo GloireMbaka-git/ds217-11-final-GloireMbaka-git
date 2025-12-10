@@ -1,0 +1,61 @@
+Features List:
+rolling :
+  - Wet Bulb Temperature_7h_mean
+  - Humidity_7h_mean
+  - Total Rain_7h_mean
+  - Wind Speed_7h_mean
+  - Barometric Pressure_7h_mean
+  - Solar Radiation_7h_mean
+  - Wind Direction_7h_mean
+  - Precipitation Type_7h_mean
+  - Rain Intensity_7h_mean
+  - Interval Rain_7h_mean
+  - Battery Life_7h_mean
+  - Wet Bulb Temperature_24h_mean
+  - Humidity_24h_mean
+  - Total Rain_24h_mean
+  - Wind Speed_24h_mean
+  - Barometric Pressure_24h_mean
+  - Solar Radiation_24h_mean
+  - Wind Direction_24h_mean
+  - Precipitation Type_24h_mean
+  - Rain Intensity_24h_mean
+  - Interval Rain_24h_mean
+  - Battery Life_24h_mean
+  - Wet Bulb Temperature_30d_mean
+  - Humidity_30d_mean
+  - Total Rain_30d_mean
+  - Wind Speed_30d_mean
+  - Barometric Pressure_30d_mean
+  - Solar Radiation_30d_mean
+  - Wind Direction_30d_mean
+  - Precipitation Type_30d_mean
+  - Rain Intensity_30d_mean
+  - Interval Rain_30d_mean
+  - Battery Life_30d_mean
+ Derived features:
+  - wet_bulb_difference
+  - wet_bulb_humidity_ratio
+  - wet_bulb_humidity_interaction
+  - rain_difference
+  - rain_intensity_ratio
+  - rain_humidity_interaction
+  - Intervrain_humidity_interaction
+  - rain_pressure_interaction
+  - rain_wind_interaction
+  - wind_range
+  - wind_speed_ratio
+  - wind_speed_interaction
+  - wind_humidity_ratio
+  - wind_pressure_interaction
+  - pressure_humidity_ratio
+  - pressure_humidity_interaction
+  - solar_totalrain_interaction
+  - solar_humidity_interaction
+  - solar_pressure_ratio
+  - solar_wind_interaction
+Categorical features:
+  - Wet_bulb_temp_category
+  - humidity_category
+  - wind_speed_category
+  - solar_category

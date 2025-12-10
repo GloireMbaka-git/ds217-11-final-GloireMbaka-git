@@ -1,0 +1,110 @@
+DATA CLEANING REPORT
+====================
+
+Rows before cleaning: 196367
+
+Missing Data Handling:
+- Air Temperature: 75 missing values (0.0%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+- Wet Bulb Temperature: 75974 missing values (38.7%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+- Rain Intensity: 75974 missing values (38.7%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+- Total Rain: 75974 missing values (38.7%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+- Precipitation Type: 75974 missing values (38.7%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+- Barometric Pressure: 146 missing values (0.1%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+- Heading: 75974 missing values (38.7%)
+  Method: Forward-fill (time series)
+  Result: All missing values filled
+
+Outlier Handling:
+- Air Temperature: Detected 97 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-21.50, 47.30]
+  Result: 97 value capped
+
+- Wet Bulb Temperature: Detected 279 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-18.40, 39.20]
+  Result: 279 value capped
+
+- Humidity: Detected 185 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [22.50, 114.50]
+  Result: 185 value capped
+
+- Rain Intensity: Detected 6621 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [0.00, 0.00]
+  Result: 6621 value capped
+
+- Interval Rain: Detected 15851 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [0.00, 0.00]
+  Result: 15851 value capped
+
+- Total Rain: Detected 11621 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-269.80, 479.00]
+  Result: 11621 value capped
+
+- Precipitation Type: Detected 12668 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [0.00, 0.00]
+  Result: 12668 value capped
+
+- Wind Direction: Detected 0 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-365.00, 635.00]
+  Result: 0 value capped
+
+- Wind Speed: Detected 12221 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-0.95, 5.85]
+  Result: 12221 value capped
+
+- Maximum Wind Speed: Detected 4024 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-4.80, 11.20]
+  Result: 4024 value capped
+
+- Barometric Pressure: Detected 4611 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [977.60, 1011.20]
+  Result: 4611 value capped
+
+- Solar Radiation: Detected 29486 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [-196.50, 327.50]
+  Result: 29486 value capped
+
+- Heading: Detected 27532 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [340.50, 368.50]
+  Result: 27532 value capped
+
+- Battery Life: Detected 6 outliers using IQR method (3×IQR)
+  Method: Capped outliers
+  Bounds: [7.10, 19.90]
+  Result: 6 value capped
+
+Duplicates Removed: 0
+
+Data Type Conversion:
+- 'Measurement Timestamp' converted to datetime
+- All numeric columns ensured to be numeric types

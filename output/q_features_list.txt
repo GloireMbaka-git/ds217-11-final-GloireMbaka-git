@@ -1,0 +1,2 @@
+Features List:
+- Battery Life_7h_mean_24h_mean

@@ -1,0 +1,21 @@
+KEY PATTERNS IDENTIFIED
+==================================================
+
+TEMPORAL TRENDS:
+- Clear seasonal patterns in Air Temperature and Wet Bulb Temperature
+- Higher temperatures observed in : August for Air Temperature
+- Lower temperatures observed in : January for Air Temperature
+- Monthly temperature range for Air Temperature was: -21.50°C to 37.60°C
+
+SEASONAL PATTERNS:
+- The day of the week with higher temperature was : Thursday
+-  Weekly seasonal patterns show peak temperatures : 37.6°C in week number : 34
+-  Monthly seasonal patterns show peak temperatures : 37.6°C in September
+- Overall, there was a drecrese trend in the Air Temperatures weekly and monthly
+
+KEY CORRELATIONS:
+- wind_speed_interaction ↔ Maximum Wind Speed: 0.929
+- Maximum Wind Speed ↔ wind_speed_interaction: 0.929
+- Wet Bulb Temperature ↔ Air Temperature: 0.828
+- wind_speed_interaction ↔ Wind Speed: 0.779
+- Wind Speed ↔ Maximum Wind Speed: 0.597
